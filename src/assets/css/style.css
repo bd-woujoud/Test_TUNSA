@@ -1,0 +1,226 @@
+body {
+    font-family: "Gill Sans", sans-serif;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold !important;
+}
+
+.container-fluid {
+
+    margin-bottom: 50px;
+    margin-top: 50px !important;
+
+}
+
+p {
+    color: darkgray;
+    font-size: 18px;
+}
+
+.form-control {
+    border: none !important;
+}
+
+
+.navbar-brand img {
+    width: 80px;
+    height: 50px;
+}
+
+
+.img-astronaute {
+    max-width: 100%;
+    border-radius: 47%;
+    -webkit-border-radius: 47%;
+    -moz-border-radius: 47%;
+    -ms-border-radius: 47%;
+    -o-border-radius: 47%;
+    position: relative;
+
+}
+
+.img-team {
+    width: 90%;
+    height: 300px;
+    border-radius: 30px;
+}
+
+.img-user {
+    width: 60px;
+    height: 60px;
+    text-align: left !important;
+}
+
+
+
+
+@media screen and (min-width: 992px) {
+
+    .form-control {
+
+        width: 300px !important;
+    }
+
+
+
+    .navbar-expand-lg .navbar-collapse {
+
+        justify-content: space-between !important;
+    }
+
+    .nav-item {
+
+        margin-left: 30px;
+
+    }
+}
+
+@media screen and (min-width:576px) and (max-width: 992px) {
+
+    .img-team {
+        height: 250px;
+    }
+
+    h3 {
+        font-size: 20px !important;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    title {
+        margin-top: 20px;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+
+    .img-team {
+        height: 200px;
+    }
+
+    h3 {
+        font-size: 20px !important;
+    }
+
+
+    .content-title {
+        margin-left: 10px;
+        /* width: max-content;*/
+
+    }
+
+    .content-title h2 {
+        font-size: 20px !important;
+
+    }
+
+    .main {
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: nowrap !important;
+    }
+
+
+
+    .d-flex {
+        flex-wrap: nowrap !important;
+    }
+}
+
+@media screen and (max-width: 374px) {
+
+    .img-team {
+        height: 150px;
+    }
+
+
+}
+
+@media screen and (max-width: 297px) {
+
+    h3 {
+        font-size: 17px !important;
+    }
+
+    .content-title h2 {
+        font-size: 17px !important;
+        text-align: left !important;
+    }
+
+    .content-title h3 {
+        font-size: 16px !important;
+
+    }
+
+}
+
+.row-astronaute {
+    position: relative;
+    z-index: -1;
+}
+
+.img-ligne {
+    position: absolute;
+    z-index: 1;
+    margin-left: 820px;
+    margin-top: 20px;
+    width: 270px;
+}
+
+@media screen and (max-width: 539px) {
+    .img-ligne {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 540px)and (max-width:576px) {
+    .img-ligne {
+
+        margin-left: 180px;
+
+        width: 180px;
+    }
+}
+
+@media screen and (min-width: 577px)and (max-width:991px) {
+    .img-ligne {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 992px)and (max-width:1049px) {
+    .img-ligne {
+
+        margin-left: 530px;
+
+        width: 220px;
+    }
+}
+
+@media screen and (min-width: 1050px)and (max-width:1200px) {
+    .img-ligne {
+
+        margin-left: 650px;
+
+        width: 250px;
+    }
+}
+
+
+
+@media screen and (min-width: 1024px) {
+    .img-astronaute {
+        width: 320px;
+        height: 290px
+    }
+
+
+}
