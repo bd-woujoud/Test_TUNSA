@@ -1,6 +1,6 @@
 
 import './App.css';
-import Home from './layout/Home';
+import Home from './page/Home';
 
 
 
